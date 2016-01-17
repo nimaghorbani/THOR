@@ -222,98 +222,94 @@ function create_config( )
     "all",
     "helprealm"
     },
-    sudo_users = {132921618},--Sudo users
+    sudo_users = {132921618,116078361},--Sudo users
     disabled_channels = {},
-    realm = {63974337},--Realms Id
+    realm = {90280475},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[HaWkerGhBot V 2
+    about_text = [[Thor-Bot V 1.1
 
-Admins GhBot
-@MrGhor
+Admins Thor-Bot
+@Hoo3instar
 
-Support GhBot
-@HaWkerGh
+Support Thor-Bot
+@Hoo3instar
 
 Programmer 
-@WilSoN_DeVeLoPeR  & @HaWkerGh
+@MrGhor & @Hoo3instar
 
-For Learn GhBot Send PM For @HaWkerGh
-
-Our Channel GhBot
-@talbackBot
+For More information Send Pm  To @Hoo3instar
 ]],
     help_text = [[
-لیست دستورات :
-
-!kick [یوزرنیم|آیدی]
-اخراج شخص از گروه 
-!ban [یوزرنیم|آیدی]
-اخراج و بسته شدن ورود به گروه
-!unban [آیدی]
-باز شدن مجوز ورود به گروه 
+Commands list :
+!kick [username|id]
+You can also do it by reply
+!ban [ username|id]
+You can also do it by reply
+!unban [id]
+You can also do it by reply
 !who
-لیست افراد گروه
+Members list
 !modlist
-لیست مدیران
-!promote [یوزرنیم]
-افزایش سطح مدیریت
-!demote [یوزرنیم]
-کاهش سطح مدیریت
+Moderators list
+!promote [username]
+Promote someone
+!demote [username]
+Demote someone
 !kickme
-اخراج من 
+Will kick user
 !about
-درباره گروه
+Group description
 !setphoto
-تنظیم و قفل عکس گروه
-!setname [اسم]
-تنظیم و قفل اسم گروه
+Set and locks group photo
+!setname [name]
+Set group name
 !rules
-قوانین گروه
+Group rules
 !id
-نمایش آیدی یک فرد یا یک گروه
+return group id or user id
 !help
-کمک به کاربر
-!lock [member|name|bots]
-قفل کردن [ممبر|اسم|بات ها] 
-!unlock [member|name|photo|bots]
-باز کردن قفل [ممبر|اسم|عکس|بات ها]
-!set rules <متن>
-قراردادن <متن> به عنوان قوانین گروه
-!set about <متن>
-قراردادن <متن> به عنوان اطلاعات گروه
+!lock [member|name|bots|arabic]
+Locks [member|name|bots|arabic] 
+!unlock [member|name|photo|bots|arabic]
+Unlocks [member|name|photo|bots|arabic]
+!set rules <text>
+Set <text> as rules
+!set about <text>
+Set <text> as about
 !settings
-نمایش تنظیمات گروه
+Returns group settings
 !newlink
-ساخت لینک جدید برای گروه
+create/revoke your group link
 !link
-نمایش لینک گروه
+returns group link
 !owner
-نمایش صاحب گروه
-!setowner [آیدی]
-تظیم آیدی مالک چت
-!setflood [میزان]
-قراردادن [میزان] به عنوان حساسیت به اسپم
+returns group owner id
+!setowner [id]
+Will set id as owner
+!setflood [value]
+Set [value] as flood sensitivity
 !stats
-گزارش ساده
-!save [میزان] <متن>
-ذخیره  <متن> به عنوان [میزان]
-!get [میزان]
-نمایش متن از [میزان]
-!clean [لیست مُدیران|قوانین|درباره]
-پاک میشود [لیست مُدیران|قوانین|درباره] and set it to nil
-!res [یوزرنیم]
-اده از یوزرنیم
+Simple message statistics
+!save [value] <text>
+Save <text> as [value]
+!get [value]
+Returns text of [value]
+!clean [modlist|rules|about]
+Will clear [modlist|rules|about] and set it to nil
+!res [username]
+returns user id
+"!res @username"
 !log
-نمایش لُگ های گروه
+will return group logs
 !banlist
-نمایش لیست افراد بَن شده
-!Ghbot
-اطلاعات بات
-
-موارد قابل استفاده: "!" , "/" , "&" , "$". 
-
-برای اطلاعا بیشتر به آی دی زیر پیم بفرستید :
-@HaWkerGh
+will return group ban list
+!satan
+about bot.
+**U can use: "!" , "/" , "&" , "$". 
+*Only owner and mods can add bots in group
+*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+*Only owner can use res,setowner,promote,demote and log commands
+Creator: @Hoo3instar
 ]]
 
   }
