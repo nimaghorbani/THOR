@@ -222,7 +222,7 @@ function create_config( )
     "all",
     "helprealm"
     },
-    sudo_users = {132921618,116078361},--Sudo users
+    sudo_users = {132921618},--Sudo users
     disabled_channels = {},
     realm = {90280475},--Realms Id
     moderation = {data = 'data/moderation.json'},
