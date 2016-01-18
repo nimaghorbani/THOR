@@ -26,7 +26,6 @@ end
 return {
   patterns = {
     "^[/!$&]([Bb]lock) (user) (%d+)$",
-    "^([Bb]lock) (user) (%d+)$"
   },
   run = run,
 }
