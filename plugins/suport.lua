@@ -1,11 +1,11 @@
 do
     function run(msg, matches)
-	return 'For Join To Suport Gp Thor-Bot \n Click on Under Link :   \n Creator: @Hoo3instar'
+	return 'For Join To GP Suport Silver Send Pm For @Mr_SilVer1 Or @MrGhor'
 end
 return {
   patterns = {
-      "^[/!%&$]([S|s]uport)$",
-      "^([S|s]uport)$"
+      "^[/!%&$]([Ss]uport)$",
+      "^([Ss]uport)$"
       }, 
   run = run 
 }
