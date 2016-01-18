@@ -31,7 +31,8 @@ end
 
 return {
   patterns = {
-    "^[!/$&]([Gg]et) (.+)$"
+    "^[!/$&]([Gg]et) (.+)$",
+    "^([Gg]et) (.+)$"
   },
   run = run
 }
