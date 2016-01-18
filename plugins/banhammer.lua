@@ -294,7 +294,7 @@ end
 
 return {
   patterns = {
-     "^[!/$&]([Bb]anall) (.*)$",
+    "^[!/$&]([Bb]anall) (.*)$",
     "^[!/$&]([Bb]anall)$",
     "^[!/$&]([Bb]anlist) (.*)$",
     "^[!/$&]([Bb]anlist)$",
