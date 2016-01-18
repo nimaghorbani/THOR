@@ -227,18 +227,26 @@ function create_config( )
     disabled_channels = {},
     realm = {90280475},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Thor-Bot V 1.1
+    about_text = [[
+    
+    SilVeR-RoBoT  v2 - Close Source
+☑️SilVeR-RoBoT☑️
 
-Admins Thor-Bot
-@Hoo3instar
+⚜ This Is Old BoT Of Telegram ⚜
 
-Support Thor-Bot
-@Hoo3instar
+💯~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~💯
+💊💉👾🎭
+🔘Admins
+           ✅@Mr_SilVeR1[Developer]
+           ✅@MrGhor
+🔱〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰🔱
+⚔☠
+🤖 This BoT Is a Best BoT 🤖
 
-Programmer 
-@MrGhor & @Hoo3instar
-
-For More information Send Pm  To @Hoo3instar
+😈 This BoT Can Fuck All OF The Sapmmers 😈
+⚠️〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰〰⚠️
+🔵Our Channel:
+@Silverbotchannel
 ]],
     help_text = [[
 Commands list :
@@ -310,7 +318,7 @@ about bot.
 *Only owner and mods can add bots in group
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 *Only owner can use res,setowner,promote,demote and log commands
-Creator: @Hoo3instar
+Creator: @Mr_SilVeR1 & @MrGhor
 ]]
 
   }
